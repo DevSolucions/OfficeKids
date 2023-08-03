@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body,
+html {
+    background-color:#f7a8e7;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tree-container .avatar .image {
+    width: 350px;
+    height: 250px;
+    border-radius: 0%;
+}
+
+.tree-container .name-empresa {
+    color: #303030;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.tree-container .links-container {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    margin-top: 12px;
+    width: 310px;
+    border: 2px solid #303030d8;
+    background-color: #82b6ffe7;
+    color: #303030;
+    border-radius: 15px;
+    font-size: 26px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding: 1px 1;
+}   
+.tree-container .socials-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 12px;
+}
+
+.socials-container .social {
+    transform: scale(0.9);
+    transition: ease 0.2s;
+}
+
+.socials-container .social:hover {
+    transform: scale(1);
+}
+
+.socials-container .social img {
+    width: 42px; 
+    height: 42px;
+    border-radius: 10%;
+}
+
+footer {
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 8px;
+    color: #303030;
+}
